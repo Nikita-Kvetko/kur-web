@@ -1,3 +1,19 @@
+/*-----Обнуление-----*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 .poppins{
     font-family: "Poppins", sans-serif;
@@ -9,15 +25,19 @@
 }
 header {
     text-align: center;
-    margin-bottom: 20px;
+    
 }
 header h1 {
     font-size: 24px;
     color: #333;
 }
 .contact-info {
+
+    
     text-align: center;
-    margin-bottom: 20px;
+    margin: 0 200px 0 200px;
+    
+
 }
 .contact-info a {
     color: #007bff;
@@ -38,8 +58,15 @@ header h1 {
     display: flex; 
     justify-content: space-around; 
     background-color: #A0D1E8; 
-    padding: 10px 0; 
+    padding: 5px 0 15px 0; 
     border-bottom: 5px solid #A0C4FF; 
+}
+
+.tcategories{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   gap:20px;
 }
 
 .categories div {
@@ -51,7 +78,10 @@ header h1 {
     transition: background-color 0.3s, color 0.3s; 
 }
 
-
+.srclogo{
+    width: 21px;
+    height: 21px;
+}
 
 
     
@@ -59,6 +89,8 @@ header h1 {
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
+    margin: 15px 200px 0 200px;
+    
 }
 
 .navigation__link {
@@ -97,6 +129,11 @@ header h1 {
         
     }
 
+    .nav-item__img {
+        /* width: 24px; */
+        /* height: 24px; */
+    }
+    
     .nav-item img {
         margin-bottom: 5px; 
     }
@@ -149,23 +186,23 @@ header h1 {
     .logo {
         display: flex; 
         align-items: center; 
+        gap: 20px;
+
     }
     
-    .logo img {
-        height: 40px; 
-        margin-right: 10px; 
-    }
+    
     
     .Nav {
         display: flex; 
         align-items: center; 
     }
     
-    .NavLeft, .NavRight {
+     .NavRight {
         display: flex; 
+        gap: 22px;
     }
     
-    .NavLeft a, .NavRight a {
+     .NavRight a {
         margin: 0 15px; 
         text-decoration: none; 
         color: #4A4A4A; 
@@ -177,14 +214,18 @@ header h1 {
     
     hr {
         border: 1px solid #E0E0E0; 
-        margin: 10px 0; 
+        margin: 10px 0 0 0;
     }
     .grey{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
 
+    }
+    
+    .rectangle{
+        margin: 22px 0 0 0 ;
+    }
     .advantages {
         text-align: center; 
         padding: 40px 20px; 
