@@ -233,14 +233,19 @@ header h1 {
     }
     
     .advantages h2 {
-        font-size: 24px; 
-        margin-bottom: 30px; 
+        display: flex;
+        justify-content: flex-start;
+        font-weight: bold;
+        font-size: 30px; 
+        margin: 20px 0 30px 180px; 
         color: #333; 
     }
     
     .advantage-cards {
         display: flex; 
         flex-wrap: wrap; 
+        margin: 0 0px 0 180px;
+        gap: 31px;
     }
     
     .card {
@@ -248,12 +253,13 @@ header h1 {
         align-items: center; 
         background-color: #fff; 
         border: 1px solid #e0e0e0; 
+        flex-wrap: nowrap;
         border-radius: 8px; 
         padding: 20px; 
-        width: 294px; 
+        width: 357px; 
         height: 94px;
         text-align: left;
-        margin: 0 32px 0 0;
+        
         &:last-child {
             margin: 0;
         }
@@ -276,11 +282,16 @@ header h1 {
         text-align: center; 
         padding: 40px 20px; 
         background-color: #f9f9f9; 
+        margin: 0 200px 0 178px;
+        
     }
     
     .catalog h2 {
-        font-size: 24px; 
-        margin-bottom: 30px; 
+        display: flex;
+        justify-content: flex-start;
+        font-weight: bold;
+        font-size: 30px; 
+        
         color: #333; 
     }
     
@@ -325,12 +336,17 @@ header h1 {
         text-align: center; 
         padding: 40px 20px; 
         background-color: #f9f9f9; 
+        margin: 0 200px 0 178px;
     }
     
     .popular-products h2 {
-        font-size: 24px; 
+        display: flex;
+        justify-content: flex-start;
+        font-size: 30px; 
         margin-bottom: 30px; 
         color: #333; 
+        font-weight: bold; 
+        
     }
     
     .products {
