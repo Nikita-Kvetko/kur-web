@@ -35,7 +35,7 @@ header h1 {
 
     
     text-align: center;
-    margin: 0 200px 0 200px;
+    margin: 0 200px 0 178px;
     
 
 }
@@ -60,7 +60,9 @@ header h1 {
     background-color: #A0D1E8; 
     padding: 5px 0 15px 0; 
     border-bottom: 5px solid #A0C4FF; 
+    
 }
+
 
 .tcategories{
     display: flex;
@@ -82,8 +84,14 @@ header h1 {
     width: 21px;
     height: 21px;
 }
-
-
+ .logo2{
+    margin:;
+ }
+.nlog
+{
+    width: 19px;
+    height: 19px;
+}
     
 .navigation {
     display: flex; 
@@ -129,27 +137,51 @@ header h1 {
         
     }
 
-    .nav-item__img {
-        /* width: 24px; */
-        /* height: 24px; */
+
+    .tnav{
+        
+        font-size: 18px;
     }
-    
+    .nav-item__img1
+    {
+        width: 17px;
+        height: 19px;
+    }
+
+    .nav-item__img2
+    {
+        width: 22px;
+        height: 19px;
+    }
+
+    .nav-item__img3
+    {
+        width: 24px;
+        height: 24px;
+    }
+    .nav-item__img4
+    {
+        width: 36px;
+        height: 19px;
+    }
     .nav-item img {
         margin-bottom: 5px; 
     }
     
-    .nav-item a {
-        color: #333;
-        text-decoration: none;
-        font-size: 14px; 
-    }
+    
     .adress{
         display: flex;
         flex-direction: column; 
         align-items: center; 
+        font-size: 18px;
     }
     .adress__link {
         align-self: start;
+        
+    }
+    .adress a 
+    {
+        color:#ff0000;
     }
     .number{
         display: flex;
@@ -157,13 +189,39 @@ header h1 {
         align-items: center; 
         text-align: center;
     }
+
+    .buttonPhone{
+        width: 177px;
+        height: 35px;
+        display: inline-block; 
+        padding: 5px 0 12px 0;
+        background-color: transparent; 
+        color: #d9534f; 
+        border: 2px solid #d9534f; 
+        border-radius: 5px; 
+        text-decoration: none; 
+        font-weight: bold; 
+        font-size: 18px;
+
+       
+    }
+    .NumberLogo a{
+        
+            text-decoration: none; 
+            color: inherit; 
+            cursor: text; 
+            font-size: 22px;
+            
+        
+    }
     .search {
         display: flex;
         align-items: center;
         border: 1px solid #A0C4FF;
         border-radius: 20px; 
         padding: 5px 10px; 
-        width: 300px; 
+        width: 296px; 
+        height: 45px;
         background-color: #FFFFFF; 
     }
     
@@ -237,7 +295,7 @@ header h1 {
         justify-content: flex-start;
         font-weight: bold;
         font-size: 30px; 
-        margin: 20px 0 30px 180px; 
+        margin: 20px 0 20px 180px; 
         color: #333; 
     }
     
@@ -260,9 +318,8 @@ header h1 {
         height: 94px;
         text-align: left;
         
-        &:last-child {
-            margin: 0;
-        }
+        
+       
     }
     
     .card-icon {
@@ -631,4 +688,16 @@ header h1 {
         width: 100%; 
         height: auto; 
         border-radius: 5px; 
+    }
+
+    .ContactInst h2
+    {
+     font-size: 30px;
+     font-weight: bold;
+    }
+
+    .instpng{
+        display: flex;
+        justify-content: center;
+        align-items: center
     }
