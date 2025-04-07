@@ -31,16 +31,10 @@ header h1 {
     font-size: 24px;
     color: #333;
 }
-.contact-info {
 
-    
-    text-align: center;
-    margin: 0 200px 0 178px;
-    
-
-}
-.contact-info a {
-    color: #ff1e00;
+.contact-info1 a {
+    font-size: 25px;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -115,6 +109,22 @@ header h1 {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-right: 20px; 
+        margin: 0 200px 0 178px;
+        border-radius: 5px; 
+        padding: 20px; 
+    }
+    .contact-info1
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 20px; 
+        background-color: rgba(238, 217, 171, 0.5); 
+        border-radius: 5px; 
+        padding: 20px; 
+        width:713px  ;
+        height: 488px ;
     }
     .nav-links {
         display: flex;
@@ -443,6 +453,35 @@ header h1 {
         width: 100%; 
         height: auto; 
     }
+     
+   .caption1{
+    position: absolute; 
+        font-size: 22px; 
+        bottom: 0; 
+        left: 0; 
+        width: 193px; 
+        height: 43px;
+        background-image: url('img/Rectangle17.png'); 
+        background-size: cover;
+        background-position: center; 
+        color: white; 
+        text-align: center; 
+        padding: 10px 0; 
+   }
+   .caption2{
+    position: absolute; 
+        font-size: 22px; 
+        bottom: 0; 
+        left: 0; 
+        width: 210px; 
+        height: 43px;
+        background-image: url('img/Rectangle17.png'); 
+        background-size: cover;
+        background-position: center; 
+        color: white; 
+        text-align: center; 
+        padding: 10px 0; 
+   }
     
     .card-title1 {
         position: absolute; 
@@ -715,6 +754,7 @@ header h1 {
     }
     
     .sale-products {
+        margin-top: 58px;
         text-align: center; 
         padding: 40px 20px; 
         background-color: #f9f9f9; 
@@ -883,7 +923,7 @@ header h1 {
         flex-wrap: wrap; 
         column-gap: 30px; 
         row-gap:29px;
-        margin: 30px 0 0 178px;
+        margin: 35px 0 0 178px;
     }
     
     
@@ -941,24 +981,20 @@ header h1 {
 
     .contact-section {
         display: flex; 
-        padding: 40px 20px; 
         background-image: url('img/BlueMaster.png'), url('img/Rectangle\ 50.png'); 
-        background-size: 150px auto, 200px auto; 
-        background-size: cover, contain; 
-        background-position: center, center; 
+        background-size: 713px, 488px; 
+        background-position: left top, left top; 
         background-repeat: no-repeat, no-repeat; 
+        width: 1521px; 
+        height: 488px;
+        margin: 30px 200px 0 200px;
     }
     
-    .contact-info {
-         
-        padding-right: 20px; 
-        background-color: rgba(255, 255, 255, 0.8); 
-        border-radius: 5px; 
-        padding: 20px; 
-    }
     
-    .contact-info h2 {
-        font-size: 24px; 
+    
+    .contact-info1 h2 {
+        font-size: 30px; 
+        font-weight: bold;
         margin-bottom: 20px; 
         color: #333; 
     }
@@ -971,36 +1007,42 @@ header h1 {
     .ask-question {
         display: inline-block; 
         margin-top: 20px; 
-        padding: 10px 20px; 
+        padding: 13px 35px 20px 35px; 
         background-color: #007bff; 
         color: white; 
         border-radius: 5px; 
         text-decoration: none; 
-        
+        width: 259px;
+        height: 58px;
     }
     
    
     
-    .map-container {
-        flex: 1; 
-    }
+ 
     
     .map-image {
-        width: 100%; 
-        height: auto; 
+        width: 808px; 
+        height: 488px; 
         border-radius: 5px; 
+        margin-bottom: 50px;
     }
+
+    
 
     .ContactInst h2
     {
+        margin: 107px 0 0 200px;
      font-size: 30px;
      font-weight: bold;
     }
-
+    .instagrampng{
+        margin-top: 40px;
+    }
     .instpng{
         display: flex;
         justify-content: center;
         align-items: center
+        
     }
 
     .footer {
